@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist", //directorio de compilacion
+        "rootDir": "./src", //directorio fuente
+        "lib": ["ESNext"], //vercion de ecmascript soportado
+        "target": "ESNext", //indispensable para que guarde en la db
+        "moduleResolution": "nodenext",//indispensable para que guarde en la db
+        "module": "NodeNext",//indispensable para que guarde en la db
+        "strict": false, //el modo estricto para evitar o permitir any
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include":["src/**/*.ts"], //le indica que todo lo que este en src con extension ts sera compilado
+    "exclude":["src/**/*.test.ts"]
+}
