@@ -1,6 +1,7 @@
 import { exit } from 'node:process' //detiene la ejecucion de un codigo de nodejs
 import db from '../config/db'
 
+//Esta funcion es para elimnar datos de forma automatica
 const clearDB = async () => {
 
     try {
